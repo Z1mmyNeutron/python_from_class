@@ -1,0 +1,12 @@
+file = pickAFile()
+picture = makePicture(file)
+
+
+def rectangleSelect(picture, (x0,y0), (x1,y1)):
+  return ((xout0, yout0), (xout1, yout1))
+  
+  
+def copyAndPasteAsNewImage(picture, (x0,y0), (x1,y1)):
+  pixels = getPixels(picture)
+  
+  
